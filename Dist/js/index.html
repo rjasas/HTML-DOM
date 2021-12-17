@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1 id="heading"></h1>
+    <h1 onclick="this.innerHTML = 'Paspausta'">Spauskite CIA</h1>
+    <h1 id="heading2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+    <p id="date" ></p>
+    <div class="box" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Hover Me</div>
+    <a href="#" id="link">Nuoroda</a>
+
+    <form name="form1" action="" onsubmit="return validateForm()">
+        <input type="text" name="firstName" placeholder="Name">
+        <input type="submit">
+    </form>
+    <br>
+    <p>Parasykite skaiciu nuo 1 iki 10</p>
+    <input type="text" id="number">
+    <button type="button" onclick="checkNumber()">Tikrinti</button><span id="message"></span>
+
+    <p id="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus at soluta voluptatibus voluptas? Facere, dolorum velit ab exercitationem nemo qui aperiam? Est architecto blanditiis distinctio fuga. Itaque earum necessitatibus eos!</p>
+
+    <div id="box2" class="box2"></div>
+    <button onclick="toggleBox()">Pakeisti spalva</button>
+
+    <script src="./script.js"></script>
+</body>
+</html>

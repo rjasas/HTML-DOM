@@ -1,0 +1,17 @@
+.box, .box2 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    padding: 40px;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.green {
+    background-color: green;
+    height: 50px;
+    transition: 1s;
+    margin-left: 500px;
+}
+
